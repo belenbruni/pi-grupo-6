@@ -1,10 +1,158 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul, ol, body{
+    margin: 0px;
+    padding: 0;
+}
 .barrauno{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
 }
-
 .listabarra{
+    text-decoration: none;
+    list-style-type: none;
 
+}
+#header{
+    background-color: rgb(250, 196, 237);
+    width: 100%;
+    
+}
+.logo{
+    width: 280px;
+    padding: 20px 30px;
+}
+
+body{
+    background-color: rgb(254, 235, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+
+/* CSS de Register */
+
+.headerregister{
+    background-color: rgb(250, 196, 237);
+    width: 97%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.forms{
+    background-color:rgb(255, 216, 245);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px 0px 0px 0px;
+    
+}
+.labelform{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    padding: 7px 0px;
+    font-size: smaller;
+
+   
+}
+.divsregister {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 6px;
+    width: 300px;
+}
+
+.textoregister{
+    text-decoration: none;
+    color: rgb(239,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  
+}
+.botonregister{
+    background-color:rgb(254, 235, 249) ;
+    border-color:rgb(233, 188, 221); 
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+ 
+}
+
+.botones{
+    text-decoration: none;
+    color: black;
+}
+
+.botontyc{
+       width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+    font-size: smaller;
+    margin-right: 57px;
+    margin-top: 15px;
+    
+    
+}
+
+.acepto{
+    margin-left: 8px;
+   
+}
+/* CSS de Login */
+
+.botoningresar{
+    background-color:rgb(254, 235, 249) ;
+    border-color:rgb(233, 188, 221); 
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+ 
+}
+
+.olvido{
+    display: flex;
+    justify-content: flex-start;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(239,0,0);
+    align-items: center;
 }

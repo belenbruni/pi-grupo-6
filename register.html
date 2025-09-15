@@ -1,4 +1,3 @@
-HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,74 +6,81 @@ HTML
     <title>Register</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+  
 <body>
 
+<body>
+    <header class="headerregister">
+        <nav class="barrauno">
+            <ul>
+      
+            <li class="listabarra"><a href="./register.html">Registrarse</a></li>
+            <li class="listabarra"><a href="./login.html">Iniciar sesion</a></li>
+            </ul>
+        </nav>
+
+    <section>
+        <img class="logo" src="./img/banner.png" alt="banner">
+    </section>
+    </header>
+
+   
+</body>
+</html>
+
+    <main>
+        <h1 class="textoregister ">Crear nueva cuenta</h1>
+    
+       <section class="forms">
+            <form action="./resultadoBusqueda.html" method="get" ></form>
+
+                <div class="divsregister">
+                    <label class="labelform">Nombre de usuario</label>
+                    <input type="text" name="username" value="" required>
+                </div>
 
 
-    <main id="main">
-       
-       
-        <form action="./resultadoBusqueda.html" method="get">
+                <div class="divsregister">
+                    <label class="labelform" for="">Email</label>
+                    <input type="email" name="emailuser" value="@gmail.com" required>
+                </div>
 
 
-            <div>
-                <label for="">ingrese nombre de usuario:</label>
-                <input type="text" name="username" value="" placeholder="Ingrese nombre de usuario:">
-            </div>
+                <div class="divsregister">
+                    <label class="labelform" for="">Contraseña</label>
+                    <input type="password" name="password" placeholder="" required>
+                </div>
 
 
-            <div>
-                <label for="ingrese email:"></label>
-                <input type="email" name="emailuser" value="@gmail.com">
-            </div>
+                <div class="divsregister">
+                    <label class="labelform" for="">Repetir contraseña</label>
+                    <input type="password" name="repeatpassword" required>
+                </div>
 
 
-            <div>
-                <label for="">Ingrese su edad</label>
-                <input type="number" name="ageuser" placeholder="Ingrese su edad:">
-            </div>
+                <div class="botontyc">
+                    <input type="checkbox" name="termsandconditions" required> 
+                    <label class="acepto">Acepto términos y condiciones</label>
+                    
+    
+                </div>
 
+                 <div>
+                    <button class="botonregister"> <a  class="botones"href="./index.html">Registrarme</a></button>
+                </button>
+                </div>
 
-            <div>
-                <label for="">Contrasena</label>
-                <input type="password" name="password" placeholder="Ingrese contrasena:" >
-            </div>
-
-
-            <div>
-                <label for="">Asistio a clases?</label>
-                <input type="radio" name="asistencia" value="si"> <span>Si</span>
-                <input type="radio" name="asistencia" value="no"> <span>No</span>
-            </div>
-
-
-            <div>
-                <label for="">Hobbies</label>
-
-
-                <input type="checkbox" name="hobbies" value="futbol"> <span>Futbol</span>
-                <input type="checkbox" name="hobbies" value="tenis"> <span></span>
-                <input type="checkbox" name="hobbies" value="basquet"> <span>Basquet</span>
-                <input type="checkbox" name="hobbies" value="softball"> <span></span>
-
-
-            </div>
-
-
-            <div>
-                <button type="button">Acciones</button>
-                <button disabled="disabled">Disabilitado</button>
-                <button type="reset">Reset</button>
-                <button type="submit">Enviar</button>
-            </div>
-
-
-
-
-        </form>
-
+            </form>
+            <h4 ><a class="olvido" href="./login.html">Ya tengo una cuenta</a></h4>
+        </section>
 
     </main>
-   
+
+    <footer class="footer">
+        <h3>Contacto:</h3>
+        <p>Instagram: @makys.ok</p>
+        <p>Mail: makys@gmail.com</p>
+        <p>Telefono: +54 9 11 1234-5678</p>
+    </footer>
 </body>
 </html>
