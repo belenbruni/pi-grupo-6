@@ -156,3 +156,43 @@ main{
     color: rgb(239,0,0);
     align-items: center;
 }
+
+/* CSS de blush */
+
+.tituloblush{
+    font-size: 60px;
+    background-color: rgb(250, 196, 237);
+    color: rgb(239,0,0);
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border-top: solid 20px rgba(239,0,0,0.7);
+    margin-top: 0px;
+
+}
+
+.detallesblush{
+    font-size: small;
+
+}
+
+.contenedorpadreblush{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.cadablush{
+    margin: 10px;
+    
+}
+
+.imagenblush{
+    width: 350px;
+}
+
+.nombreblush{
+    margin-bottom: 2px;
+}
