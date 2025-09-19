@@ -6,40 +6,50 @@ ul, ol, body{
     margin: 0px;
     padding: 0;
 }
-.barrauno{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.listabarra{
-    text-decoration: none;
-    list-style-type: none;
-
-}
-#header{
-    background-color: rgb(250, 196, 237);
-    width: 100%;
-    
-}
-.logo{
-    width: 280px;
-    padding: 20px 30px;
-}
-
 body{
     background-color: rgb(254, 235, 249);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100vw;}
+
+
+/* CSS de Header */
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: red;
+    
 }
 
+.barrauno ul {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 15px;
+  
+}
+.listabarra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+    
+.logo{
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+}
 
-/* CSS de Register */
-
-.headerregister{
+header{
     background-color: rgb(250, 196, 237);
     width: 97%;
     height: 120px;
@@ -49,7 +59,6 @@ body{
     flex-wrap: wrap;
     border-radius: 25px;
     align-items: center;
-    padding: 10px;
     margin-top: 15px;
 }
 
@@ -60,6 +69,10 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+
+/* CSS de Register */
+
 
 
 .forms{
@@ -119,7 +132,7 @@ main{
 }
 
 .botontyc{
-       width: 250px;
+    width: 250px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -127,8 +140,6 @@ main{
     font-size: smaller;
     margin-right: 57px;
     margin-top: 15px;
-    
-    
 }
 
 .acepto{
@@ -145,7 +156,6 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
- 
 }
 
 .olvido{
@@ -164,7 +174,6 @@ main{
     background-color: rgb(250, 196, 237);
     color: rgb(239,0,0);
     width: 100%;
-    padding: 15px;
     text-align: center;
     border-top: solid 20px rgba(239,0,0,0.7);
     margin-top: 0px;
