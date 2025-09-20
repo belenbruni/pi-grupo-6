@@ -12,31 +12,50 @@
 </head>
   
 <body>
-
-<body>
-    <header>
-        <section>
-        <img class="logo" src="./img/banner.png" alt="banner">
-    </section>  
-    
-    
+     <header>
         <nav class="barrauno">
             <ul>
             <li class="listabarra"><a href="./register.html">Registrarse</a></li>
             <li class="listabarra"><a href="./login.html">Iniciar sesion</a></li>
             </ul>
+            <section class="sectionbuscador">
+               <img src="./img/icone-loupe-gris.png" class="lupa" alt="lupa">
+                <form action="./resultados_busqueda.html" method="get" class="buscador">
+                   <input type="search" name="buscador" class="buscador" placeholder="Buscar" >
+                </form>
+            </section>
         </nav>
 
+    <section class="sectionlogo">
+        <a href="index.html">
+            <img class="logo" src="./img/banner.png" alt="banner">
+        </a>
+    </section>
     </header>
-
    
-</body>
-</html>
+
+
 
     <main>
-        <h1 class="textoregister ">Crear nueva cuenta</h1>
-    
+        
+          <aside>
+            <h3 class="titulocate">Categorias</h3>
+            <ul class="categorias">
+                <li> <a href="./blush.html">Blush</a></li>
+                <li> <a href="./blush.html">Lipstick</a></li>
+                <li> <a href="./blush.html">Eyeshadow</a></li>
+                <li> <a href="./blush.html">Mascara</a></li>
+                <li> <a href="./blush.html">Contour</a></li>
+                <li> <a href="./blush.html">Bronzer</a></li>
+                <li> <a href="./blush.html">Highlighter</a></li>
+                <li> <a href="./blush.html">Foundation</a></li>
+            </ul>
+        </aside>
+
        <section class="forms">
+           
+             <h1 class="textoregister ">Crear nueva cuenta</h1>
+    
             <form action="./resultadoBusqueda.html" method="get" ></form>
 
                 <div class="divsregister">
@@ -66,7 +85,6 @@
                 <div class="botontyc">
                     <input type="checkbox" name="termsandconditions" required> 
                     <label class="acepto">Acepto términos y condiciones</label>
-                    
     
                 </div>
 
@@ -81,11 +99,28 @@
 
     </main>
 
-    <footer class="footer">
-        <h3>Contacto:</h3>
-        <p>Instagram: @makys.ok</p>
-        <p>Mail: makys@gmail.com</p>
-        <p>Telefono: +54 9 11 1234-5678</p>
+   <footer class="footer">
+        <section class="sectionfooteruno">
+            <h3>Contacto:</h3>
+        </section>
+
+        <section class="sectionfooter">
+            <p class="infofooter">Instagram: @makys.ok</p>
+            <p class="infofooter">Telefono: +54 9 11 1234-5678</p>
+            <p class="infofooter">Mail: makys@gmail.com</p>
+        </section>
+
+        <section class="sectionfooteruno">
+        </section>
+
+        <section class="sectionintegrantes">
+            <h3 class="tituloIntegrantes">Integrantes del grupo:</h3>
+            <p class="infoIntegrantes">Belén Bruni -</p>
+            <p class="infoIntegrantes">Bianca Paz -</p>
+            <p class="infoIntegrantes">Carola Baquerín</p>
+        </section>
+        
+        
     </footer>
 </body>
 </html>
