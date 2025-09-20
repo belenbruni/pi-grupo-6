@@ -60,6 +60,7 @@ a {
 .logo {
     width: 700px;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .sectionlogo {
@@ -91,33 +92,58 @@ main {
 }
 
 /* CSS de footer */
-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin-left: 40px;
+footer{
+    background-color: rgb(231, 59, 59);  
+    color: rgb(250, 196, 237);
 }
 
 .sectionfooteruno {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sectionintegrantes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width: 100vw;
+    justify-content: center;
+    padding-bottom: 15px;
 }
 
 .sectionfooteruno h3 {
     margin-bottom: 0px;
+    text-align: center;
+    font-size: 23px;
 }
 
 .sectionfooter {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 0px;
+    width: 100vw;
+    justify-content: center;
 }
 
+.infofooter{
+    margin: 20px;
+    font-size: 19px;
+    margin-top: 6px;
+}
 
+.infoIntegrantes{
+    margin: 3px;
+    font-size: 19px;
+    align-self: center;
+}
+
+.tituloIntegrantes{
+    font-size: 23px;
+    margin: 0px 15px 0px 0px;
+    text-decoration: dashed;
+
+}
 /* CSS de Register */
 
 
@@ -241,7 +267,7 @@ footer {
     font-size: 20px;
     margin: 0px;
     color: black;
-
+    width: 250px;
 }
 
 .contenedorpadreblush {
@@ -270,6 +296,8 @@ footer {
     margin-bottom: 2px;
     margin-top: 2px;
     color: black;
+    width: 250px;
+
 }
 
 
