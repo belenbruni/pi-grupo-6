@@ -358,3 +358,92 @@ main {
     justify-content: space-around;
     width: 100%;
 }
+
+/*producto*/
+
+.imagenproducto {
+    width: 450px;
+}
+
+.tituloproducto {
+    font-size: 45px;
+    color: rgb(239, 0, 0);
+    width: 990px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 66px;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.detallesproducto {
+    font-size: 30px;
+    color: black;
+    width: 250px;
+    margin: 0px;
+}
+
+.detallesproducto2 {
+    font-size: 25px;
+    color: black;
+    width: 250px;
+    margin: 0px 0px 20px 0px;
+}
+
+.contenedorpadreproducto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    background-color: rgb(250, 196, 237);
+    border-radius: 25px;
+    margin-top: 20px;
+   
+}
+
+.descriproducto{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    
+
+}
+
+
+.descrtitulo{
+    font-size: 30px;
+    margin-bottom: 2px;
+    color: rgb(239, 0, 0);
+}
+
+.descripcion{
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.tonosproducto{
+    list-style-type: none;
+}
+
+.tonosproducto li{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.botoncompra{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(239, 0, 0);
+    margin-top: 25px;
+    height: 50px;
+    width:  250px;
+    border: none;
+
+}
+
+
+
