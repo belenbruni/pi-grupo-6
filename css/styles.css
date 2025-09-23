@@ -28,9 +28,14 @@ body {
 
 /* CSS de Header */
 
-.buscador {
-    width: 250px;
+.boton{
+    display: flex;
 }
+
+.buscador {
+    display: flex;
+}
+
 .sectionbuscador{
     display: flex;
     flex-wrap: wrap;
@@ -40,14 +45,12 @@ body {
 
 .lupa{
     width: 25px;
-    margin-right: 7px;
-    align-self: center;
 }
-a {
+
+a{
     text-decoration: none;
     list-style-type: none;
     color: rgb(239, 0, 0);
-
 }
 
 .barrauno {
@@ -101,6 +104,38 @@ header {
     margin-top: 10px;
 }
 
+/* CSS de Index */
+.contenedorPadreIndex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    background-color: rgb(250, 196, 237);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.asideIndex{
+    width: 20%;
+    background-color: rgb(250, 196, 237);
+    border-radius: 25px;
+    padding: 30px;
+    align-self: flex-start;
+    margin-top: 20px;
+    height: 500px;
+    margin-left: 15px;
+}
+
+/* CSS de Pagina de resultados */
+.skincare{
+    display: none;
+}
+
+.noSkincare{
+    margin-top: 45px;
+}
 
 /* CSS de footer */
 footer{
@@ -142,6 +177,7 @@ footer{
     margin: 20px;
     font-size: 19px;
     margin-top: 6px;
+    text-decoration: underline;
 }
 
 .infoIntegrantes{
@@ -156,10 +192,8 @@ footer{
     text-decoration: dashed;
 
 }
+
 /* CSS de Register */
-
-
-
 .forms {
     background-color: rgb(250, 196, 237);
     width: 70%;
@@ -171,7 +205,6 @@ footer{
     flex-direction: column;
     border-radius: 25px;
     margin-top: 20px;
-    padding-bottom: 7px;
 }
 
 .labelform {
@@ -179,10 +212,8 @@ footer{
     flex-wrap: wrap;
     flex-direction: column;
     width: 200px;
-    padding: 7px 0px;
+    padding-top: 7px;
     font-size: 20px;
-
-
 }
 
 .divsregister {
@@ -201,6 +232,8 @@ footer{
     align-items: center;
     font-family: "Sansita Swashed", system-ui;
     font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 13px;
 }
 
 .botonregister {
@@ -211,7 +244,6 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 25px;
-
 }
 
 .botones {
@@ -228,7 +260,7 @@ footer{
     align-self: center;
     font-size: smaller;
     margin-right: 57px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .acepto {
@@ -236,12 +268,12 @@ footer{
     font-size: 20px;
 
 }
+
 input{
     font-size: 20px;
 }
 
 /* CSS de Login */
-
 .botoningresar {
     background-color: rgb(254, 235, 249);
     border-color: rgb(233, 188, 221);
@@ -259,11 +291,10 @@ input{
     text-decoration: none;
     color: rgb(239, 0, 0);
     align-items: center;
-    margin-top: -13px;
+    margin-top: -23px;
 }
 
 /* CSS de category */
-
 .tituloblush {
     font-size: 60px;
     color: rgb(239, 0, 0);
@@ -275,7 +306,6 @@ input{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
 }
 
 .detallesblush {
@@ -294,13 +324,11 @@ input{
     background-color: rgb(250, 196, 237);
     border-radius: 25px;
     margin-top: 20px;
-   
 }
 
 .cadablush {
     margin: 10px;
     padding: 30px;
-
 }
 
 .imagenblush {
@@ -312,10 +340,7 @@ input{
     margin-top: 2px;
     color: black;
     width: 250px;
-
 }
-
-
 
 /* CSS de aside */
 aside {
@@ -331,7 +356,6 @@ aside {
 
 .categorias li {
     margin-bottom: 20px;
-
 }
 
 .categorias li a {
@@ -342,13 +366,11 @@ aside {
     font-size: 40px;
     margin-bottom: 8px;
     margin-top: 8px;
-
 }
 
 .categorias {
     list-style-type: none;
     font-size: 25px;
-
 }
 
 main {
@@ -359,7 +381,7 @@ main {
     width: 100%;
 }
 
-/*producto*/
+/* Producto */
 
 .imagenproducto {
     width: 450px;
@@ -401,7 +423,6 @@ main {
     background-color: rgb(250, 196, 237);
     border-radius: 25px;
     margin-top: 20px;
-   
 }
 
 .descriproducto{
@@ -409,8 +430,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     height: 20%;
-    
-
 }
 
 
@@ -442,7 +461,6 @@ main {
     height: 50px;
     width:  250px;
     border: none;
-
 }
 
 
