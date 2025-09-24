@@ -137,6 +137,10 @@ header {
     margin-top: 45px;
 }
 
+strong{
+    font-weight: bolder;
+}
+
 /* CSS de footer */
 footer{
     background-color: rgb(231, 59, 59);  
