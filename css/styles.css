@@ -28,7 +28,7 @@ body {
 
 /* CSS de Header */
 
-.boton{
+.boton {
     display: flex;
 }
 
@@ -36,18 +36,18 @@ body {
     display: flex;
 }
 
-.sectionbuscador{
+.sectionbuscador {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-right: 20px;
 }
 
-.lupa{
+.lupa {
     width: 25px;
 }
 
-a{
+a {
     text-decoration: none;
     list-style-type: none;
     color: rgb(239, 0, 0);
@@ -79,7 +79,7 @@ a{
 }
 
 .logo {
-    width: 700px;
+    width: 400px;
     align-items: center;
     padding-bottom: 30px;
 }
@@ -105,7 +105,7 @@ header {
 }
 
 /* CSS de Index */
-.contenedorPadreIndex{
+.contenedorPadreIndex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -117,7 +117,7 @@ header {
     margin-left: 30px;
 }
 
-.asideIndex{
+.asideIndex {
     width: 20%;
     background-color: rgb(250, 196, 237);
     border-radius: 25px;
@@ -129,21 +129,21 @@ header {
 }
 
 /* CSS de Pagina de resultados */
-.skincare{
+.skincare {
     display: none;
 }
 
-.noSkincare{
+.noSkincare {
     margin-top: 45px;
 }
 
-strong{
+strong {
     font-weight: bolder;
 }
 
 /* CSS de footer */
-footer{
-    background-color: rgb(231, 59, 59);  
+footer {
+    background-color: rgb(231, 59, 59);
     color: rgb(250, 196, 237);
     margin-top: 20px;
 }
@@ -155,7 +155,7 @@ footer{
     justify-content: center;
 }
 
-.sectionintegrantes{
+.sectionintegrantes {
     display: flex;
     flex-direction: row;
     margin-top: 0px;
@@ -177,20 +177,20 @@ footer{
     justify-content: center;
 }
 
-.infofooter{
+.infofooter {
     margin: 20px;
     font-size: 19px;
     margin-top: 6px;
     text-decoration: underline;
 }
 
-.infoIntegrantes{
+.infoIntegrantes {
     margin: 3px;
     font-size: 19px;
     align-self: center;
 }
 
-.tituloIntegrantes{
+.tituloIntegrantes {
     font-size: 23px;
     margin: 0px 15px 0px 0px;
     text-decoration: dashed;
@@ -273,7 +273,7 @@ footer{
 
 }
 
-input{
+input {
     font-size: 20px;
 }
 
@@ -366,7 +366,7 @@ aside {
     font-size: 30px;
 }
 
-.titulocate{
+.titulocate {
     font-size: 40px;
     margin-bottom: 8px;
     margin-top: 8px;
@@ -429,7 +429,7 @@ main {
     margin-top: 20px;
 }
 
-.descriproducto{
+.descriproducto {
     width: 40%;
     display: flex;
     flex-wrap: wrap;
@@ -437,69 +437,105 @@ main {
 }
 
 
-.descrtitulo{
+.descrtitulo {
     font-size: 30px;
     margin-bottom: 2px;
     color: rgb(239, 0, 0);
 }
 
-.descripcion{
+.descripcion {
     margin-top: 0px;
     font-size: 22px;
 }
 
-.tonosproducto{
+.tonosproducto {
     list-style-type: none;
 }
 
-.tonosproducto li{
+.tonosproducto li {
     font-size: 20px;
     padding-left: 5px;
 }
 
-.botoncompra{ 
+.botoncompra {
     color: rgb(255, 255, 255);
     background-color: rgb(239, 0, 0);
     margin-top: 25px;
     height: 50px;
-    width:  250px;
+    width: 250px;
     border: none;
 }
 
 /*telefono*/
 /* CSS de Header telefono */
 
-@media (max-width: 460px){
-.buscador {
-    width: 100px;
-}
+@media (max-width: 460px) {
+    .buscador {
+        width: 100px;
+    }
 
-.sectionbuscador{
-    width: 200px;
-}
+    .sectionbuscador {
+        width: 200px;
+    }
 
-.lupa{
-    width: 25px;
-}
+    .lupa {
+        width: 25px;
+    }
 
-a {
-    font-size: 20px;
-}
+    a {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 248px;
+    }
+
+    header {
+        width: 95%;
+    }
 
 
-.logo {
-    width: 400px;
-}
+    /* CSS de aside */
+    aside {
+        width: 73%;
+        margin-left: 35px;
+    }
 
-header {
-    width: 95%;
-}
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        flex-wrap: wrap;
+    }
+
+    .asideIndex {
+        width: 73%;
+        margin-left: 35px;
+    }
+
+    .contenedorPadreIndex {
+        width: 86%;
+        margin-left: 35px;
+    }
 
 
-/* CSS de aside */
-aside {
-    width: 78%;
+    .cadablush {
+        margin: 10px;
+        padding: 30px 45px;
 
-}
+    }
+
+    .contenedorpadreblush {
+        width: 86%;
+        margin-left: 35px;
+    }
+
+    .tituloblush {
+        font-size: 46px;
+        margin-top: 30px;
+        margin-bottom: -20px;
+        margin-left: 33px;
+
+    }
 
 }
