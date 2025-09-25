@@ -457,8 +457,7 @@ main {
     padding-left: 5px;
 }
 
-.botoncompra{
-    
+.botoncompra{ 
     color: rgb(255, 255, 255);
     background-color: rgb(239, 0, 0);
     margin-top: 25px;
@@ -467,5 +466,40 @@ main {
     border: none;
 }
 
+/*telefono*/
+/* CSS de Header telefono */
+
+@media (max-width: 460px){
+.buscador {
+    width: 100px;
+}
+
+.sectionbuscador{
+    width: 200px;
+}
+
+.lupa{
+    width: 25px;
+}
+
+a {
+    font-size: 20px;
+}
 
 
+.logo {
+    width: 400px;
+}
+
+header {
+    width: 95%;
+}
+
+
+/* CSS de aside */
+aside {
+    width: 78%;
+
+}
+
+}
