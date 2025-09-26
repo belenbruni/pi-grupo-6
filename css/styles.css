@@ -456,7 +456,8 @@ main {
 }
 
 .tonosproducto {
-    list-style-type: none;
+    margin: 3px 0px 0px 18px;
+
 }
 
 .tonosproducto li {
