@@ -425,6 +425,18 @@ main {
     margin: 0px 0px 20px 0px;
 }
 
+.precioDetalle{
+    font-size: 25px;
+    color: black;
+    width: 250px;
+}
+
+.precio{
+    margin: 0px;
+    font-size: 25px;
+
+}
+
 .contenedorpadreproducto {
     display: flex;
     flex-wrap: wrap;
