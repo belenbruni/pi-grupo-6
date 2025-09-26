@@ -634,6 +634,12 @@ main {
         margin-bottom: 25px;
     }
 
+    .review {
+        margin-left: 20px;
+}
+
+   
+
 
 /* Responsive Footer */
     footer {
@@ -673,6 +679,7 @@ main {
         margin-top: 28px;
 
     }
+
 
 
 /* Responsive Register*/
