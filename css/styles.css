@@ -104,6 +104,7 @@ header {
     margin-top: 10px;
 }
 
+
 /* CSS de Index */
 .contenedorPadreIndex {
     display: flex;
@@ -128,6 +129,7 @@ header {
     margin-left: 15px;
 }
 
+
 /* CSS de Pagina de resultados */
 .skincare {
     display: none;
@@ -140,6 +142,7 @@ header {
 strong {
     font-weight: bolder;
 }
+
 
 /* CSS de footer */
 footer {
@@ -168,7 +171,7 @@ footer {
 .sectionfooteruno h3 {
     margin-bottom: 0px;
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .sectionfooter {
@@ -187,7 +190,7 @@ footer {
 
 .infoIntegrantes {
     margin: 3px;
-    font-size: 19px;
+    font-size: 22px;
     align-self: center;
 }
 
@@ -197,6 +200,7 @@ footer {
     text-decoration: dashed;
 
 }
+
 
 /* CSS de Register */
 .forms {
@@ -338,6 +342,7 @@ input {
 
 .imagenblush {
     width: 250px;
+    border: solid 3px #cd2020;
 }
 
 .nombreblush {
@@ -390,6 +395,7 @@ main {
 
 .imagenproducto {
     width: 450px;
+    border: solid 3px #cd2020;
 }
 
 .tituloproducto {
@@ -467,8 +473,10 @@ main {
     border: none;
 }
 
-/*telefono*/
-/* CSS de Header telefono */
+
+/* Responsive Design Desktop First (Telefono)*/
+
+/* Responsive Header */
 
 @media (max-width: 460px) {
     .buscador {
@@ -495,8 +503,12 @@ main {
         width: 95%;
     }
 
+    .listabarra{
+        padding-right: 11px;
+    }
 
-    /* CSS de aside */
+
+    /* Responsive Aside */
     aside {
         width: 73%;
         margin-left: 6%;
@@ -532,20 +544,29 @@ main {
 
     .tituloblush {
         font-size: 46px;
-        margin-top: 30px;
-        margin-left: 33px;
         margin-bottom: 2px;
+        margin-left: 0px;
+        text-align: center;
+
     }
 
-    /* producto */
+    .detallesblush{
+        text-align: center;
+    }
+
+    .nombreblush{
+        text-align: center;
+    }
+
+    /* Responsive Producto */
     .imagenproducto {
         width: 250px;
     }
 
     .tituloproducto {
-        margin-left: 47px;
-        font-size: 46px;
+        margin-left: -9px;
         margin-top: 30px;
+        width: 80%;
     }
 
     .contenedorpadreproducto {
@@ -562,7 +583,7 @@ main {
     }
 
 
-    /* CSS de footer */
+/* Responsive Footer */
     footer {
         text-align: center;
     }
@@ -601,10 +622,20 @@ main {
 
     }
 
-}
 
-/* CSS de Register*/
+/* Responsive Register*/
     .forms{
         width: 89%;
         margin-left: 6%;
     }
+
+    
+/* Responsive Resultado Busqueda*/
+
+    .noSkincare {
+        margin-top: 45px;
+        margin: 7% 5% 2% 5%;
+        text-align: center;
+
+}
+}
