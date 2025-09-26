@@ -463,6 +463,9 @@ main {
     height: 20%;
 }
 
+.muchasgracias {
+    margin-top: 60px;
+}
 
 .descrtitulo {
     font-size: 30px;
@@ -496,7 +499,20 @@ main {
     padding: 5px 15px;
     display: flex;
     align-items: center;
-    width: 27%;
+    text-align: center;
+}
+
+.botoncomprarya{
+   width: 27%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(239, 0, 0);
+    margin-top: 25px;
+    height: 45px;
+    width: 158px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -659,10 +675,6 @@ main {
         padding-left: 9%;
     }
 
-    .gracias{
-        width: 89%;
-        text-align: center;
-    }
 
     .precio{
         text-align: center;
