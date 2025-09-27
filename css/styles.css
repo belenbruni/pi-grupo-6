@@ -32,12 +32,15 @@ body {
     display: flex;
     background-color: rgb(255, 221, 245);
     border: none;
+    border-radius: 7px;
 }
 
 .buscador {
     display: flex;
     background-color: rgb(255, 221, 245);
     border: none;
+    border-radius: 7px;
+    margin-left: 5px;
 }
 
 .sectionbuscador {
@@ -131,7 +134,7 @@ header {
     align-self: flex-start;
     margin-top: 20px;
     height: 500px;
-    
+
 }
 
 
@@ -288,6 +291,7 @@ input {
     border: none;
     background-color: rgb(255, 221, 245);
     font-size: 20px;
+    color: gray;
 }
 
 /* CSS de Login */
@@ -310,7 +314,8 @@ input {
     align-items: center;
     margin-top: -23px;
 }
-.divingresaryregistro{
+
+.divingresaryregistro {
 
     display: flex;
     justify-content: center;
@@ -353,7 +358,8 @@ input {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+}
 
 .imagenblush {
     width: 250px;
@@ -409,7 +415,7 @@ main {
 /* Producto */
 
 .imagenproducto {
-    width: 450px;
+    width: 420px;
     border: solid 3px #cd2020;
 }
 
@@ -424,7 +430,14 @@ main {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
 
+.divproducto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
 }
 
 .detallesproducto {
@@ -441,13 +454,13 @@ main {
     margin: 0px 0px 20px 0px;
 }
 
-.precioDetalle{
+.precioDetalle {
     font-size: 25px;
     color: black;
     width: 250px;
 }
 
-.precio{
+.precio {
     margin: 0px;
     font-size: 25px;
 
@@ -458,7 +471,7 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 70%;
+    width: 100%;
     background-color: rgb(250, 196, 237);
     border-radius: 25px;
     margin-top: 20px;
@@ -472,7 +485,7 @@ main {
 }
 
 .muchasgracias {
-    margin-top: 60px;
+    padding: 20px 0px;
 }
 
 .descrtitulo {
@@ -510,8 +523,8 @@ main {
     text-align: center;
 }
 
-.botoncomprarya{
-   width: 27%;
+.botoncomprarya {
+    width: 27%;
     color: rgb(255, 255, 255);
     background-color: rgb(239, 0, 0);
     margin-top: 25px;
@@ -524,24 +537,23 @@ main {
     text-align: center;
 }
 
-.estrella{
+.estrella {
     width: 20px;
-    
+
 }
 
-.reviews{
-    width: 66%;
+.reviews {
+    width: 100%;
     background-color: rgb(250, 196, 237);
     border-radius: 25px;
     margin-top: 20px;
-    margin-left: 400px;
     padding-left: 64px;
 }
 
-.titulores{
+.titulores {
     font-size: 45px;
     color: rgb(239, 0, 0);
-    width: 990px;
+    width: 200px;
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: "Sansita Swashed", system-ui;
@@ -550,17 +562,17 @@ main {
     font-style: normal;
 }
 
-.nombrereview{
+.nombrereview {
     margin-bottom: 2px;
     font-weight: bolder;
 }
 
-.review{
+.review {
     margin-top: 2px;
-    width: 50%;
+    width: 100%;
 }
 
-.articleReview{
+.articleReview {
     height: 20%;
 }
 
@@ -576,7 +588,7 @@ main {
     }
 
     .sectionbuscador {
-        width: 122px;  
+        width: 122px;
         margin-top: 10px;
     }
 
@@ -595,13 +607,15 @@ main {
     header {
         width: 95%;
     }
+
     .barrauno {
         display: flex;
         flex-direction: column;
-   
-    
+
+
     }
-    .listabarra{
+
+    .listabarra {
         padding-right: 11px;
     }
 
@@ -649,11 +663,11 @@ main {
 
     }
 
-    .detallesblush{
+    .detallesblush {
         text-align: center;
     }
 
-    .nombreblush{
+    .nombreblush {
         text-align: center;
     }
 
@@ -669,6 +683,14 @@ main {
         text-align: center;
     }
 
+    .divproducto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
     .contenedorpadreproducto {
         width: 89%;
         margin-left: 6%;
@@ -678,7 +700,7 @@ main {
         width: 80%;
     }
 
-    .botoncompra {
+    .botoncomprarya {
         margin-bottom: 25px;
     }
 
@@ -686,31 +708,31 @@ main {
         width: 80%;
     }
 
-    .reviews{
+    .reviews {
         margin-left: 6%;
         width: 80%;
         padding-left: 9%;
     }
 
 
-    .precio{
+    .precio {
         text-align: center;
     }
-   
-    .descrtitulo{
+
+    .descrtitulo {
         margin-top: 0px;
     }
 
-    .precioDetalle{
+    .precioDetalle {
         margin-bottom: -10px;
     }
 
-    .titulores{
+    .titulores {
         width: 55%;
         text-align: center;
     }
 
-/* Responsive Footer */
+    /* Responsive Footer */
     footer {
         text-align: center;
     }
@@ -751,19 +773,19 @@ main {
 
 
 
-/* Responsive Register*/
-    .forms{
+    /* Responsive Register*/
+    .forms {
         width: 89%;
         margin-left: 6%;
     }
 
-    
-/* Responsive Resultado Busqueda*/
+
+    /* Responsive Resultado Busqueda*/
 
     .noSkincare {
         margin-top: 45px;
         margin: 7% 5% 2% 5%;
         text-align: center;
 
-}
+    }
 }
