@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
-   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
 </head>
-  
+
 <body>
-     <header>
+    <header>
         <nav class="barrauno">
             <ul>
-            <li class="listabarra"><a href="./register.html">Registrarse</a></li>
-            <li class="listabarra"><a href="./login.html">Iniciar sesion</a></li>
+                <li class="listabarra"><a href="./register.html">Registrarse</a></li>
+                <li class="listabarra"><a href="./login.html">Iniciar sesion</a></li>
             </ul>
             <section class="sectionbuscador">
                 <form action="./resultados_busqueda.html" method="get" class="buscador">
-                   <input type="search" name="buscador" class="buscador" placeholder="Buscar" value="" >
-                   <button class="boton" type=”submit”><img src="./img/lupa.png" class="lupa" alt="lupa"></button>
+                    <input type="search" name="buscador" class="buscador" placeholder="Buscar" value="">
+                    <button class="boton" type=”submit”><img src="./img/lupa.png" class="lupa" alt="lupa"></button>
                 </form>
             </section>
         </nav>
 
-    <section class="sectionlogo">
-        <a href="index.html">
-            <img class="logo" src="./img/logo_final.png" alt="banner">
-        </a>
-    </section>
+        <section class="sectionlogo">
+            <a href="index.html">
+                <img class="logo" src="./img/logo_final.png" alt="banner">
+            </a>
+        </section>
     </header>
 
     <main>
-
-         <aside>
+        <aside>
             <h3 class="titulocate">Categorias</h3>
             <ul class="categorias">
                 <li> <a href="./category.html">Blush</a></li>
@@ -48,37 +47,30 @@
                 <li> <a href="./category.html">Foundation</a></li>
             </ul>
         </aside>
-    
-       <section class="forms">
-             <h1 class="textoregister ">Ingresa a tu cuenta</h1>
-            
-             <form action="./resultadoBusqueda.html" method="get" >
 
+        <section class="forms">
+            <h1 class="textoregister ">Ingresa a tu cuenta</h1>
+            <form action="./resultadoBusqueda.html" method="get">
                 <div class="divsregister">
                     <label class="labelform">Nombre de usuario</label>
                     <input type="text" name="username" value="" placeholder="Ingrese su usuario" value="" required>
                 </div>
-
 
                 <div class="divsregister">
                     <label class="labelform" for="">Contraseña</label>
                     <input type="password" name="password" placeholder="Ingrese su contraseña" value="" required>
                 </div>
 
-
                 <div class="botontyc">
-                    <input type="checkbox" name="termsandconditions" value="" required> 
+                    <input type="checkbox" name="termsandconditions" value="" required>
                     <label class="acepto">Acepto términos y condiciones</label>
                 </div>
                 <div class="divingresaryregistro">
                     <button class="botoningresar botones" type="submit">Ingresar</button>
                 </div>
-                <h4 ><a class="olvido" href="./register.html">No tengo cuenta</a></h4>
-                
+                <h4><a class="olvido" href="./register.html">No tengo cuenta</a></h4>
             </form>
-            
         </section>
-
     </main>
 
     <footer class="footer">
@@ -98,8 +90,7 @@
             <p class="infoIntegrantes">Bianca Paz -</p>
             <p class="infoIntegrantes">Carola Baquerín</p>
         </section>
-        
-        
     </footer>
 </body>
+
 </html>
