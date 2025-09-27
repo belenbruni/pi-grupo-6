@@ -358,7 +358,7 @@ input {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .imagenblush {
@@ -461,7 +461,7 @@ main {
 }
 
 .precio {
-    margin: 0px;
+    margin: 10px 0px;
     font-size: 25px;
 
 }
@@ -485,7 +485,8 @@ main {
 }
 
 .muchasgracias {
-    padding: 20px 0px;
+    padding: 0px;
+    margin: 25px 0px 35px 0px;
 }
 
 .descrtitulo {
@@ -512,7 +513,7 @@ main {
 .botoncompra {
     color: rgb(255, 255, 255);
     background-color: rgb(239, 0, 0);
-    margin-top: 25px;
+    margin-top: 10px;
     height: 35px;
     width: 80px;
     border: none;
@@ -521,6 +522,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
+    align-self: center;
 }
 
 .botoncomprarya {
@@ -568,7 +570,7 @@ main {
 }
 
 .review {
-    margin-top: 2px;
+    margin: 2px;
     width: 100%;
 }
 
@@ -717,6 +719,7 @@ main {
 
     .precio {
         text-align: center;
+
     }
 
     .descrtitulo {
