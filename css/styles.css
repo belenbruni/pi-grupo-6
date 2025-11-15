@@ -482,6 +482,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     height: 20%;
+    display:block;
 }
 
 .muchasgracias {
@@ -501,7 +502,9 @@ main {
 }
 
 .tonosproducto {
-    margin: 3px 0px 0px 18px;
+    margin-left: 15px;
+    display:block;
+    
 
 }
 
