@@ -354,16 +354,22 @@ input {
 }
 
 .cadablush {
-    margin: 10px;
+    margin: 20px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: #f5d5ef;
+    border-radius: 25px;
+    
+
 }
 
 .imagenblush {
     width: 250px;
     border: solid 3px #cd2020;
+    border-radius: 25px;
+    background-color: #e8c5e1;
 }
 
 .nombreblush {
@@ -381,16 +387,17 @@ aside {
     padding: 30px;
     align-self: flex-start;
     margin-top: 20px;
-    height: 500px;
+    height: 1200px;
 
 }
 
 .categorias li {
-    margin-bottom: 20px;
+    margin-bottom: 13px;
+
 }
 
 .categorias li a {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .titulocate {
@@ -417,6 +424,8 @@ main {
 .imagenproducto {
     width: 420px;
     border: solid 3px #cd2020;
+    background-color: #f5d5ef;
+    border-radius: 25px;
 }
 
 .tituloproducto {
@@ -653,6 +662,8 @@ main {
     .cadablush {
         margin: 10px;
         padding: 10px 45px;
+    
+
     }
 
     .contenedorpadreblush {
