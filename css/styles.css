@@ -84,6 +84,7 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     padding-right: 40px;
+    color: rgb(239, 0, 0);
 }
 
 .logo {

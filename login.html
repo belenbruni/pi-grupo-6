@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <header>
+     <header>
         <nav class="barrauno">
-            <ul>
+            <ul class="ulHeader">
                 <li class="listabarra"><a href="./register.html">Registrarse</a></li>
                 <li class="listabarra"><a href="./login.html">Iniciar sesion</a></li>
             </ul>
@@ -68,19 +68,19 @@
 
         <section class="forms">
             <h1 class="textoregister ">Ingresa a tu cuenta</h1>
-            <form action="./resultadoBusqueda.html" method="get">
+            <form action= "./index.html" method="get">
                 <div class="divsregister">
-                    <label class="labelform">Nombre de usuario</label>
-                    <input type="text" name="username" value="" placeholder="Ingrese su usuario" value="" required>
+                    <label class="labelform">Email</label>
+                    <input class="emailLogin" type="email" name="email" value="" placeholder="Ingrese su email" value="" >
                 </div>
 
                 <div class="divsregister">
                     <label class="labelform" for="">Contraseña</label>
-                    <input type="password" name="password" placeholder="Ingrese su contraseña" value="" required>
+                    <input class="passwordLogin" type="password" name="password" placeholder="Ingrese su contraseña" value="" >
                 </div>
 
                 <div class="botontyc">
-                    <input type="checkbox" name="termsandconditions" value="" required>
+                    <input type="checkbox" name="termsandconditions" value="" >
                     <label class="acepto">Acepto términos y condiciones</label>
                 </div>
                 <div class="divingresaryregistro">
@@ -109,6 +109,10 @@
             <p class="infoIntegrantes">Carola Baquerín</p>
         </section>
     </footer>
+
+    <script src="./js/login.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
 </body>
 
 </html>
