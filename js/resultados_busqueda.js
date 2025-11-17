@@ -1,9 +1,9 @@
-let queryString = location.search;
-let query = new URLSearchParams(queryString);
-let categoria = query.get("categoria");
-let productos = document.querySelector(".contenedorpadreblush")
+let query = location.search;
+let qs = new URLSearchParams(query);
+let buscador = qs.get("buscador")
+let URL = `https://dummyjson.com/products/search?q=${buscador}`;
+let buscados = document.querySelector(".contenedorPadreIndex")
 
-let URL = `https://dummyjson.com/products/category/${categoria}`;
 fetch(URL)
     .then(function (res) {
         return res.json()
@@ -14,8 +14,8 @@ fetch(URL)
         let listaProductos = data.products
         for (let i= 0; i < listaProductos.length; i++) {
             const element = listaProductos[i];
-            productos.innerHTML += `<article class="cadablush">
-                 <a href="./producto.html?id=${element.id}"><img class="imagenblush" src="${element.images[0]}" alt="Blush Happy">
+            buscados.innerHTML += `<article class="cadablush">
+                <a href="./producto.html?id=${element.id}"><img class="imagenblush" src="${element.images[0]}" alt="Blush Happy">
                     <h4 class="nombreblush">${element.title}</h4>
                     <p class="detallesblush"></p>
                 </a>
@@ -23,16 +23,7 @@ fetch(URL)
                 <a class="botoncompra" href="./producto.html?id=${element.id}">Ver más</a>
             </article>`
 
-        }
-        
-    })
+        }})
     .catch(function (err) {
         console.log(err)
     })
-
-    
-
-
-
-
-
