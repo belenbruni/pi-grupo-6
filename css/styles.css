@@ -226,6 +226,7 @@ footer {
 .forms {
     background-color: rgb(250, 196, 237);
     width: 70%;
+    height: 460px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -668,7 +669,8 @@ main {
 
     .listabarra {
         padding-right: 11px;
-    }
+        font-size: 20px;
+    } 
 
 
     /* Responsive Aside */

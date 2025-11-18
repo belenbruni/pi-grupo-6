@@ -9,4 +9,4 @@ logout.addEventListener('click', function(event) {
             '<li class="listabarra"><a href="./login.html">Iniciar sesion</a></li>';}
     })
 
-    ///PREGUNTAR SI ESTA BIEN USADO EL FOR Y EL INNER HTML
+    
