@@ -23,7 +23,7 @@ fetch(URL)
                     <h4 class="nombreblush">${element.title}</h4>
                     <p class="detallesblush"></p>
                 </a>
-                <p class="precio">${element.price} </p>
+                <p class="precio">$${element.price} </p>
                 <a class="botoncompra" href="./producto.html?id=${element.id}">Ver más</a>
             </article>`
         }

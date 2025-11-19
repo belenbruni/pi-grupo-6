@@ -138,18 +138,6 @@ header {
 
 }
 
-.asideIndex {
-    width: 20%;
-    background-color: rgb(250, 196, 237);
-    border-radius: 25px;
-    padding: 30px;
-    align-self: flex-start;
-    margin-top: 20px;
-    height: 500px;
-
-}
-
-
 /* CSS de Pagina de resultados */
 .skincare {
     display: none;
@@ -374,7 +362,7 @@ input {
     align-items: flex-start;
     background-color: #f5d5ef;
     border-radius: 25px;
-    
+
 
 }
 
@@ -486,7 +474,6 @@ main {
 .precio {
     margin: 10px 0px;
     font-size: 25px;
-
 }
 
 .contenedorpadreproducto {
@@ -505,7 +492,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     height: 20%;
-    display:block;
+    display: block;
 }
 
 .muchasgracias {
@@ -526,9 +513,7 @@ main {
 
 .tonosproducto {
     margin-left: 15px;
-    display:block;
-    
-
+    display: block;
 }
 
 .tonosproducto li {
@@ -570,20 +555,20 @@ main {
 
 }
 
-.emailReview{
+.emailReview {
     margin: 2px;
     width: 100%;
     font-size: 20px;
     color: rgb(239, 0, 0);
 }
 
-.rating{
+.rating {
     font-style: bold;
     margin: 2px;
     font-size: 22px;
 }
 
-.date{
+.date {
     margin: 2px;
     width: 100%;
     font-size: 15px;
@@ -639,6 +624,16 @@ main {
         width: 130px;
     }
 
+    .buscador{
+        width: 172px;
+        padding-left: 7px;
+        margin-left: -15px;
+    }
+
+    .barrauno ul{
+        margin-left: 8px;
+    }
+
     .sectionbuscador {
         width: 122px;
         margin-top: 10px;
@@ -663,22 +658,21 @@ main {
     .barrauno {
         display: flex;
         flex-direction: column;
-
-
     }
 
     .listabarra {
         padding-right: 11px;
         font-size: 20px;
-    } 
-
+    }
 
     /* Responsive Aside */
     aside {
         width: 73%;
         margin-left: 6%;
+        height: 1160px;
     }
 
+    /* Responsive Index */
     main {
         display: flex;
         flex-direction: column;
@@ -686,22 +680,25 @@ main {
         flex-wrap: wrap;
     }
 
-    .asideIndex {
-        width: 73%;
-        margin-left: 6%;
-    }
-
     .contenedorPadreIndex {
         width: 89%;
         margin-left: 6%;
+        padding-bottom: 25px;
     }
 
+    .contenedorPadreIndexDos {
+        width: 89%;
+        margin-left: 6%;
+        padding-bottom: 25px;
+    }
 
     .cadablush {
         margin: 10px;
-        padding: 10px 45px;
-    
+        padding: 35px 30px;
+    }
 
+    .precio {
+        align-self: center;
     }
 
     .contenedorpadreblush {
@@ -768,12 +765,6 @@ main {
         padding-left: 9%;
     }
 
-
-    .precio {
-        text-align: center;
-
-    }
-
     .descrtitulo {
         margin-top: 0px;
     }
@@ -823,10 +814,7 @@ main {
     .tituloIntegrantes {
         margin-bottom: 10px;
         margin-top: 28px;
-
     }
-
-
 
     /* Responsive Register*/
     .forms {
@@ -834,13 +822,11 @@ main {
         margin-left: 6%;
     }
 
-
     /* Responsive Resultado Busqueda*/
 
     .noSkincare {
         margin-top: 45px;
         margin: 7% 5% 2% 5%;
         text-align: center;
-
     }
 }
