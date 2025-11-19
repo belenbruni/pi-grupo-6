@@ -4,7 +4,7 @@ let buscador = qsObj.get("buscador")
 let URL = `https://dummyjson.com/products/search?q=${buscador}`;
 let resultado = document.querySelector(".resultado")
 let contenedor = document.querySelector(".contenedorPadreIndex")
-resultado.innerText = `Resultados de búsqueda: "${buscador}"`
+resultado.innerText = `Resultados de búsqueda para "${buscador}"`
 
 fetch(URL)
     .then(function (res) {

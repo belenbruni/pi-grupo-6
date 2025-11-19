@@ -5,7 +5,7 @@ let mensajeVacio = "Todos los campos son obligatorios, no pueden quedar vacíos"
 let mensajeLargo= "La contraseña debe tener al menos 6 caracteres";
 
 formulario.addEventListener('submit', function(e) {
-    event.preventDefault();
+    e.preventDefault();
     if (emailLogin.value == ""){
         alert(mensajeVacio); 
         return;
@@ -21,5 +21,4 @@ formulario.addEventListener('submit', function(e) {
         localStorage.setItem("emailUsuario", emailLogin.value);
         this.submit(); 
     }
-    
 })

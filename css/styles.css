@@ -699,7 +699,7 @@ main {
 
     .cadablush {
         margin: 10px;
-        padding: 35px 30px;
+        padding: 35px 30px 20px 30px;
     }
 
     .precio {
@@ -759,6 +759,7 @@ main {
 
     .botoncomprarya {
         margin-bottom: 25px;
+        margin-top: 14px;
     }
 
     .review {
@@ -776,7 +777,7 @@ main {
     }
 
     .precioDetalle {
-        margin-bottom: -10px;
+        margin-bottom: -10px
     }
 
     .titulores {

@@ -26,9 +26,9 @@ fetch(URL)
                 <p class="precio">$${element.price} </p>
                 <a class="botoncompra" href="./producto.html?id=${element.id}">Ver más</a>
             </article>`
-        }
-        
+        }  
     })
+    
     .catch(function (err) {
         console.log(err)
     })
