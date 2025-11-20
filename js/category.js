@@ -13,7 +13,7 @@ fetch(URL)
     .then(function (data) {
         console.log(data)
         let listaProductos = data.products
-        for (let i= 0; i < listaProductos.length; i++) {
+        for (let i = 0; i < listaProductos.length; i++) {
             titulo.innerText = `${categoria}`
             const element = listaProductos[i];
             productos.innerHTML += `<article class="cadablush">
@@ -25,13 +25,13 @@ fetch(URL)
                 <a class="botoncompra" href="./producto.html?id=${element.id}">Ver más</a>
             </article>`
         }
-        
+
     })
     .catch(function (err) {
         console.log(err)
     })
 
-    
+
 
 
 

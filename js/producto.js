@@ -7,13 +7,13 @@ let contenedor = document.querySelector(".reviews")
 
 let URL = `https://dummyjson.com/products/${id}`
 fetch(URL)
-.then(function(res){
-    return res.json()
-    
-})
-.then(function(data){
-    console.log(data)
-    contenedorPro.innerHTML += `
+    .then(function (res) {
+        return res.json()
+
+    })
+    .then(function (data) {
+        console.log(data)
+        contenedorPro.innerHTML += `
     <h1 class="tituloproducto">${data.title}</h1>
                 <article class="articleproducto">
                     <img class="imagenproducto" src=${data.images[0]}>
@@ -37,19 +37,19 @@ fetch(URL)
                     <p class="precioDetalle">$${data.price}</p>
                     <a class="botoncomprarya" href="./resultados_busqueda.html">Comprar ya!</a>
                 </article>`
-    let reviews = data.reviews
-    for (let i = 0; i < reviews.length; i++) {
-        const element = reviews[i];
-        contenedor.innerHTML +=  `<article class="articleReview">
+        let reviews = data.reviews
+        for (let i = 0; i < reviews.length; i++) {
+            const element = reviews[i];
+            contenedor.innerHTML += `<article class="articleReview">
                                     <h3 class="nombrereview"> ${element.reviewerName} </h3>
                                     <h4 class="emailReview"> - ${element.reviewerEmail} -</h4>
                                     <p class="rating"> Rating: ${element.rating}</p>
                                     <p class="review">Comentario: ${element.comment}</p>
                                     <p class="date"> ${element.date}</p>
                                 </article>`
-    }           
-})
-.catch(function(err){
-    console.log(err)
+        }
+    })
+    .catch(function (err) {
+        console.log(err)
 
-});
+    });
