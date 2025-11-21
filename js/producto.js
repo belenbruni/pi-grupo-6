@@ -35,7 +35,7 @@ fetch(URL)
                         <li>Tags: ${data.tags}</li>
                     </ul>
                     <p class="precioDetalle">$${data.price}</p>
-                    <a class="botoncomprarya" href="./resultados_busqueda.html">Comprar ya!</a>
+                    <a class="botoncomprarya" href="./index.html">Comprar ya!</a>
                 </article>`
         let reviews = data.reviews
         for (let i = 0; i < reviews.length; i++) {

@@ -16,13 +16,15 @@ fetch(URL)
         let productos = data.products;
         if (buscador.length == 0) {
             alert("El campo de búsqueda no debe estar vacío")
+            productos = ""
         }
         else if (buscador.length < 3) {
             alert("El campo requiere más de 3 caracteres")
+            productos = ""
         }
         if (productos.length === 0) {
             resultado.innerHTML = `<h2>No hay resultados para: '${buscador}'</h2>`;
-            contenedor.innerHTML = ''
+            productos= ""
         } else {
             let articulo = '';
 
