@@ -1,24 +1,45 @@
 let formulario = document.querySelector(".forms form");
 let emailLogin = document.querySelector(".emailLogin");
 let password = document.querySelector(".passwordLogin");
-let mensajeVacio = "Todos los campos son obligatorios, no pueden quedar vacíos.";
+let mensajeEmail = document.querySelector(".campoEmail");
+let mensajePassword = document.querySelector(".campoPassword");
+let mensajeBoton = document.querySelector(".campoBoton");
+let mensajeVacio = "Este campo es obligatorio, no puede quedar vacío.";
 let mensajeLargo = "La contraseña debe tener al menos 6 caracteres.";
 
 formulario.addEventListener('submit', function (e) {
     e.preventDefault();
     if (emailLogin.value == "") {
-        alert(mensajeVacio);
+        mensajeEmail.style.display = "block";
+        mensajeEmail.innerText = mensajeVacio;
+
         return;
     }
+
     if (password.value == "") {
-        alert(mensajeVacio);
+        mensajePassword.style.display = "block";
+        mensajePassword.innerText = mensajeVacio;
         return;
     }
+
     if (password.value.length < 6) {
-        alert(mensajeLargo);
+        mensajePassword.style.display = "block";
+        mensajePassword.innerText = mensajeLargo;
         return;
     } else {
         localStorage.setItem("emailUsuario", emailLogin.value);
         this.submit();
     }
 })
+
+
+emailLogin.addEventListener("focus", function () {
+    mensajeEmail.style.display = "none";
+
+})
+
+password.addEventListener("focus", function () {
+    mensajePassword.style.display = "none";
+
+})
+

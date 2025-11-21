@@ -354,6 +354,13 @@ input {
     margin-top: 20px;
 }
 
+.pIncorrecto{
+    font-size: 20px;
+    margin-top: 0px;
+    color: rgb(239, 0, 0);
+
+}
+
 .cadablush {
     margin: 20px;
     padding: 30px;

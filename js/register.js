@@ -4,6 +4,10 @@ let password = document.querySelector(".passwordRegister");
 let password2 = document.querySelector(".repeatPassword");
 let aceptoTyC = document.querySelector(".botonTermsAndConditions");
 let aceptoCondiciones = false;
+let mensajeEmail = document.querySelector(".campoEmail");
+let mensajePassword=document.querySelector(".campoPassword");
+let mensajeBoton = document.querySelector(".campoBoton");
+let mensajePassword2 = document.querySelector(".campoPassword2")
 
 let mensajeVacio = "Todos los campos son obligatorios, no pueden quedar vacíos.";
 let mensajeLargo = "La contraseña debe tener al menos 6 caracteres.";
@@ -22,19 +26,28 @@ aceptoTyC.addEventListener("click", function () {
 formulario.addEventListener('submit', function (e) {
     e.preventDefault();
     if (emailRegister.value == "") {
-        alert(mensajeVacio);
+        mensajeEmail.style.display = "block";
+        mensajeEmail.innerText= mensajeVacio;
+
         return;
     } else if (password.value == "") {
-        alert(mensajeVacio);
+        mensajePassword.style.display = "block";
+        mensajePassword.innerText= mensajeVacio;
+
         return;
     } else if (password.value.length < 6) {
-        alert(mensajeLargo);
+        mensajePassword.style.display = "block";
+        mensajePassword.innerText= mensajeLargo;
+
         return;
     } else if (password.value != password2.value) {
-        alert(mensajeNoCoincide);
+        mensajePassword2.style.display = "block";
+        mensajePassword2.innerText= mensajeNoCoincide;
+
         return;
     } else if (aceptoCondiciones == false) {
-        alert(mensajeAcepto);
+        mensajeBoton.style.display = "block";
+        mensajeBoton.innerText= mensajeAcepto;
         return;
     }
     else {
@@ -42,3 +55,29 @@ formulario.addEventListener('submit', function (e) {
     }
 
 })
+
+emailRegister.addEventListener("focus", function() {
+    mensajeEmail.style.display = "none";
+    
+})
+
+password.addEventListener("focus", function() {
+    mensajePassword.style.display = "none";
+    
+})
+
+password.addEventListener("focus", function() {
+    mensajePassword.style.display = "none";
+    
+})
+
+password2.addEventListener("focus", function() {
+    mensajePassword2.style.display = "none";
+    
+})
+
+aceptoTyC.addEventListener("focus", function() {
+    mensajeBoton.style.display = "none";
+    
+})
+
