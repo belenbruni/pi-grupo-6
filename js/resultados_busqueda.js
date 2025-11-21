@@ -14,7 +14,12 @@ fetch(URL)
     .then(function (data) {
         console.log(data);
         let productos = data.products;
-
+        if (buscador.length == 0) {
+            alert("El campo de búsqueda no debe estar vacío")
+        }
+        else if (buscador.length < 3) {
+            alert("El campo requiere más de 3 caracteres")
+        }
         if (productos.length === 0) {
             resultado.innerHTML = `<h2>No hay resultados para: '${buscador}'</h2>`;
             contenedor.innerHTML = ''
